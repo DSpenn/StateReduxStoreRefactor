@@ -1,10 +1,11 @@
-import { configureStore, createStore  } from '@reduxjs/toolkit';
-//import { createStore } from 'redux';
-//import { composeWithDevTools } from 'redux-devtools-extension';
+//import { configureStore} from '@reduxjs/toolkit';
+import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
 //import { devToolsEnhancer } from 'redux-devtools-extension/logOnlyInProduction';
 import reducer from './reducers';
 
 console.log("reducer", reducer);
+
 /* 
 const initialState = {
   products: [],
@@ -14,5 +15,8 @@ const initialState = {
   currentCategory: "",
 }; */
 
-const store = createStore(reducer);
+const store = createStore(reducer, composeWithDevTools(
+  //applyMiddleware(),
+  // other store enhancers if any
+));
 export default store;
