@@ -6,7 +6,6 @@ In this unit, you learned how to manage global state using React’s Context API
 
 Your challenge this week is to refactor the e-commerce platform from [Activity 26](../01-Activities/26-Stu_Actions-Reducers/Unsolved) so that it uses [Redux](https://redux.js.org/). You won’t need to make sweeping changes to the code, but you will need to read through the Redux documentation on your own to find the information you need. Some guidelines have been provided in the Getting Started section to point you in the right direction. If you haven't yet, download the [e-commerce platform code from Activity 26](http://static.fullstack-bootcamp.com/fullstack-ground/unit-22/26-Stu_Actions-Reducers.zip).
 
-**On the Job**: Web developers frequently have to immerse themselves in a new technology to solve a problem, with only that tool’s documentation for help. They must sift through it to find the information that matches the specific problem they’re trying to solve. This assignment will allow you to practice a skill that you’ll use many times over the course of your career.
 
 ## User Story
 
@@ -54,15 +53,6 @@ For instructions to add Redux to your application, refer to the [Redux Fundament
 
 Be sure to review ALL of the documentation, because there are newer methods that can make these tools much easier to implement. React has gone through several iterations; as such, some React-and-Redux tutorials will assume that you aren't using Hooks.
 
-**Important**: The homework requires a specific version `(>=7.0)` of `npm` in order to install peer dependencies like GraphQL when deploying to Heroku. By default, Heroku uses `npm 6.x`, which may cause some issues. Be sure to refer to the [Heroku Docs on Specifying an NPM Version](https://devcenter.heroku.com/articles/nodejs-support#specifying-an-npm-version) to ensure your `package.json` file is set up correctly, as shown in the following snippet:
-
-  ```json
-  {
-    "engines": {
-      "npm": "7.x"
-    }
-  }
-  ```
 
 ## Grading Requirements
 
@@ -70,49 +60,33 @@ This homework is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-  * Retains all the functionality of the original application.
-
-  * Application must be deployed to Heroku.
+  [] Retains all the functionality of the original application.
+  [] Application must be deployed to Heroku.
 
 ### Deployment: 32%
 
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
+[] Application deployed at live URL.
+[] Application loads with no errors.
+[] Application GitHub URL submitted.
+[] GitHub repository contains application code.
 
 ### Application Quality: 15%
 
-* User experience is intuitive and easy to navigate.
-
-* User interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
+[] User experience is intuitive and easy to navigate.
+[] User interface style is clean and polished.
+[] Application resembles the mock-up functionality provided in the Challenge instructions.
 
 ### Repository Quality: 13%
 
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains high-quality README file with description, screenshot, and link to the deployed application.
+[] Repository has a unique name.
+[] Repository follows best practices for file structure and naming conventions.
+[] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+[] Repository contains multiple descriptive commit messages.
+[] Repository contains high-quality README file with description, screenshot, and link to the deployed application.
 
 ## Review
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+[] The URL of the functional, deployed application.
+[] The URL of the GitHub repository, with a unique name and a README describing the project.
