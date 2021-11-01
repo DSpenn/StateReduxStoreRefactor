@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from '@apollo/client'; // came with
-//import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from 'react-apollo'; // maybe try
+import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import { Provider } from "react-redux";
 import Home from './pages/Home';
@@ -15,7 +14,7 @@ import OrderHistory from './pages/OrderHistory';
 import store from './utils/store';
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: 'https://wicked-mausoleum-23957.herokuapp.com/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
