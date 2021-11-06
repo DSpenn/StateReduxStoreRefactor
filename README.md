@@ -1,11 +1,30 @@
 # 22 State Homework: Redux Store
 
-## Your Task
+[Heroku Link](https://wicked-mausoleum-23957.herokuapp.com/)
 
-In this unit, you learned how to manage global state using React’s Context API. The Context API is quickly gaining traction as a worthy alternative or perhaps even successor to other libraries that manage global state in tandem with React, such as Flux or MobX. Nonetheless, the open source JavaScript library Redux remains the industry standard for managing complex state in a large-scale React application, and you’ll likely encounter it on the job.
+## Table of Contents
+  - [Heroku deployed](https://wicked-mausoleum-23957.herokuapp.com/)
+  - [Description](#Description)
+  - [Technologies-Used](#Technologies-Used)
+  - [User-Story](#User-Story)
+  - [Mock-Up](#Image)
+  - [Grading-Requirements](#Grading-Requirements)
+  - [Questions](#questions)
 
-Your challenge this week is to refactor the e-commerce platform from [Activity 26](../01-Activities/26-Stu_Actions-Reducers/Unsolved) so that it uses [Redux](https://redux.js.org/). You won’t need to make sweeping changes to the code, but you will need to read through the Redux documentation on your own to find the information you need. Some guidelines have been provided in the Getting Started section to point you in the right direction. If you haven't yet, download the [e-commerce platform code from Activity 26](http://static.fullstack-bootcamp.com/fullstack-ground/unit-22/26-Stu_Actions-Reducers.zip).
 
+## Description
+
+Assignment to refactor provided e-commerce platform from Activity 26 so that it uses [Redux](https://redux.js.org/).
+
+## Technologies Used
+```md
+apollo-server-express, apollo/client
+graphql
+mongoose
+bcrypt, jsonwebtoken, jwt-decode
+stripe
+react, react-apollo, react-dom, react-redux, react-router-dom, react-scripts
+```
 
 ## User Story
 
@@ -13,22 +32,6 @@ Your challenge this week is to refactor the e-commerce platform from [Activity 2
 AS a senior engineer working on an e-commerce platform
 I WANT my platform to use Redux to manage global state instead of the Context API
 SO THAT my website's state management is taken out of the React ecosystem
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN an e-commerce platform that uses Redux to manage global state
-WHEN I review the app’s store
-THEN I find that the app uses a Redux store instead of the Context API
-WHEN I review the way the React front end accesses the store
-THEN I find that the app uses a Redux provider
-WHEN I review the way the app determines changes to its global state
-THEN I find that the app passes reducers to a Redux store instead of using the Context API
-WHEN I review the way the app extracts state data from the store
-THEN I find that the app uses Redux instead of the Context API
-WHEN I review the way the app dispatches actions
-THEN I find that the app uses Redux instead of the Context API
 ```
 
 ## Mock-Up
@@ -47,46 +50,39 @@ Finally, the user can check out by going to their shopping cart, as shown in the
 
 ![The user checks out by going to their shopping cart.](./Assets/22-state-homework-demo-03.gif)
 
-## Getting Started
-
-For instructions to add Redux to your application, refer to the [Redux Fundamentals basic tutorial](https://redux.js.org/basics/basic-tutorial). Note that the documentation will refer to additional packages that you'll need to complete this implementation.
-
-Be sure to review ALL of the documentation, because there are newer methods that can make these tools much easier to implement. React has gone through several iterations; as such, some React-and-Redux tutorials will assume that you aren't using Hooks.
-
 
 ## Grading Requirements
-
+```md
 This homework is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
 
-  [] Retains all the functionality of the original application.
-  [] Application must be deployed to Heroku.
+  [X] Retains all the functionality of the original application.
+  [X] Application must be deployed to Heroku.
 
 ### Deployment: 32%
 
-[] Application deployed at live URL.
-[] Application loads with no errors.
-[] Application GitHub URL submitted.
-[] GitHub repository contains application code.
+[X] Application deployed at live URL.
+[X] Application loads with no errors.
+[X] Application GitHub URL submitted.
+[X] GitHub repository contains application code.
 
 ### Application Quality: 15%
 
-[] User experience is intuitive and easy to navigate.
-[] User interface style is clean and polished.
-[] Application resembles the mock-up functionality provided in the Challenge instructions.
+[X] User experience is intuitive and easy to navigate.
+[X] User interface style is clean and polished.
+[X] Application resembles the mock-up functionality provided in the Challenge instructions.
 
 ### Repository Quality: 13%
 
-[] Repository has a unique name.
-[] Repository follows best practices for file structure and naming conventions.
-[] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-[] Repository contains multiple descriptive commit messages.
-[] Repository contains high-quality README file with description, screenshot, and link to the deployed application.
+[X] Repository has a unique name.
+[X] Repository follows best practices for file structure and naming conventions.
+[X] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+[X] Repository contains multiple descriptive commit messages.
+[X] Repository contains high-quality README file with description, screenshot, and link to the deployed application.
+```
 
-## Review
 
-You are required to submit BOTH of the following for review:
-
-[] The URL of the functional, deployed application.
-[] The URL of the GitHub repository, with a unique name and a README describing the project.
+## Questions
+[https://github.com/Dspenn](https://github.com/Dspenn)
+- Email for any additional questions  DerekStander@gmail.com
