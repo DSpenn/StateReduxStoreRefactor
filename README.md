@@ -1,9 +1,7 @@
 # 22 State Homework: Redux Store
 
-[Heroku Link](https://wicked-mausoleum-23957.herokuapp.com/)
 
 ## Table of Contents
-  - [Heroku deployed](https://wicked-mausoleum-23957.herokuapp.com/)
   - [Description](#Description)
   - [Technologies-Used](#Technologies-Used)
   - [User-Story](#User-Story)
@@ -82,7 +80,3 @@ This homework is graded based on the following criteria:
 [X] Repository contains high-quality README file with description, screenshot, and link to the deployed application.
 ```
 
-
-## Questions
-[https://github.com/Dspenn](https://github.com/Dspenn)
-- Email for any additional questions  DerekStander@gmail.com
